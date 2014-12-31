@@ -5,7 +5,13 @@
 
 # Admin UI
 
-- need to build an Admin UI (web based) that will provide database management as well as Data Exploration capabilities
+Need to build an Admin UI (web based) that will provide:
+- database management 
+- Data Exploration capabilities
+- Import
+- Export
+- Convertion between different formats
+- 
 
 # Structure
 
@@ -14,9 +20,32 @@
 - on WRITE, the values will be comapred with the corresponding values in reference genome and if identical, the value will not be saved If different, the value will be saved to the hashmap
 - on READ, the base pair id will be read from the differences hashmap as well, if not found then from the reference genome
 
+## Compression
+
+- http://arxiv.org/abs/1204.1912
+- http://en.wikipedia.org/wiki/Compression_of_Genomic_Re-Sequencing_Data
+
 # Storage
 
 - should support multiple storages via abstraction + plugin
 - Cassandra
 - Redis
 - Look at how KairosDB and Titan are implemented
+
+# Databases
+
+http://www.genenames.org/useful/genome-databases-and-browsers
+http://useast.ensembl.org/downloads.html?redirect=no
+
+# Current Services and Companies
+
+- [Google Genomics](https://cloud.google.com/genomics/)
+- [Seven Bridges](https://www.sbgenomics.com)
+- [Tute Genomics](http://tutegenomics.com)
+- [Next Code](https://www.nextcode.com/products-and-services/platform-capabilities-and-services#our-services)
+- [DNA Nexus](https://www.dnanexus.com)
+
+# Press
+
+http://rt.com/news/203463-google-store-human-genome/
+http://www.technologyreview.com/news/532266/google-wants-to-store-your-genome/
