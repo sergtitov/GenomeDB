@@ -10,8 +10,7 @@ Need to build an Admin UI (web based) that will provide:
 - Data Exploration capabilities
 - Import
 - Export
-- Convertion between different formats
-- 
+- Conversion between different formats
 
 # Structure
 
@@ -34,8 +33,8 @@ Need to build an Admin UI (web based) that will provide:
 
 # Databases
 
-http://www.genenames.org/useful/genome-databases-and-browsers
-http://useast.ensembl.org/downloads.html?redirect=no
+- http://www.genenames.org/useful/genome-databases-and-browsers
+- http://useast.ensembl.org/downloads.html?redirect=no
 
 # Current Services and Companies
 
@@ -47,5 +46,5 @@ http://useast.ensembl.org/downloads.html?redirect=no
 
 # Press
 
-http://rt.com/news/203463-google-store-human-genome/
-http://www.technologyreview.com/news/532266/google-wants-to-store-your-genome/
+- http://rt.com/news/203463-google-store-human-genome/
+- http://www.technologyreview.com/news/532266/google-wants-to-store-your-genome/
